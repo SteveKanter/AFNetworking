@@ -23,6 +23,8 @@
 #import <Foundation/Foundation.h>
 #import "AFURLConnectionOperation.h"
 
+#define NormalizeInt(_int) ((unsigned long)(_int))
+
 /**
  Returns a set of MIME types detected in an HTTP `Accept` or `Content-Type` header.
  */
